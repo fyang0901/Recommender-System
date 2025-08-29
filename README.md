@@ -1,12 +1,12 @@
-# 🎮 Cooledtured Recommender System
+# Hybrid  Recommender System
 
-Hybrid recommender system built during my **Data Research Analyst internship at Cooledtured**.  
-The system combines **content-based filtering** with **popularity metrics** to recommend anime, video games, and movies to inspire content creators.
+This project is a **hybrid recommender system** that suggests **movies, anime, and video games** using a combination of **content-based filtering** (TF-IDF + cosine similarity) and **popularity metrics** (engagement, reviews, audience size).  
 
-## ✨ Features
-- Scraped and processed **170,000+ rows** of data from multiple APIs.
+It was built as part of my **Data Research Analyst internship at Cooledtured**, where I worked with over **170,000+ rows of data** across multiple APIs and integrated them with **Google Sheets + Python pipelines**
+
+##  Features
+- Scraped and processed **170,000+ rows** of data from **movies, anime, and video games** APIs.
 - Built a hybrid recommender: TF-IDF similarity + popularity (owners, reviews, peak players).
-- Interactive **Gradio dashboard** for real-time recommendations.
-- Insights used by content creators to explore adjacent titles and trends.
-
-## 📂 Project Structure
+- Implemented an **interactive Gradio dashboard** to explore recommendations.
+- Integrated **Google Sheets** for collaborative data storage and updates.
+- Managed **data pipelines**: collection → processing → model → dashboard.
